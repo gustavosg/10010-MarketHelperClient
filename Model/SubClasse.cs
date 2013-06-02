@@ -6,7 +6,7 @@ using BasisCore;
 
 namespace MarketHelperClient.Model
 {
-    class SubClasse : ModelBase
+    public class SubClasse : ModelBase
     {
         public String Nome { get; set; }
     }

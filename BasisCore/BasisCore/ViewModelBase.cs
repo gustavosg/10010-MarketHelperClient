@@ -14,8 +14,6 @@ namespace BasisCore
 {
     public class ViewModelBase
     {
-
-
         public event PropertyChangedEventHandler PropertyChanged;
 
         protected void RaisePropertyChanged(String propertyName)
@@ -25,6 +23,5 @@ namespace BasisCore
             if (handler != null)
                 handler(this, new PropertyChangedEventArgs(propertyName));
         }
-
     }
 }

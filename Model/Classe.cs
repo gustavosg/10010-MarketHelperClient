@@ -1,12 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿// ---------------------------------------------------------------------------------------
+//
+//
+// ---------------------------------------------------------------------------------------
+//
+//
+//
+// ---------------------------------------------------------------------------------------
+// Classe:
+// Autor: Gustavo Souza Gonçalves
+// Descrição: 
+// Versão 0.0.0.2
+// ---------------------------------------------------------------------------------------
+
+
+using System;
 using BasisCore;
 
 namespace MarketHelperClient.Model
 {
-    class Classe : ModelBase
+    public class Classe : ModelBase
     {
         public String Nome { get; set; }
     }

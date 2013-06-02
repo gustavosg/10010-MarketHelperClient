@@ -7,14 +7,65 @@ namespace TestProject1.Model
     {
         public String Nome { get; set; }
         public Int16 Logradouro { get; set; }
-        public String Rua { get; set; }
+
+        public String[] rua;
+        public String[] Rua
+        {
+            get
+            {
+                if (rua == null)
+                {
+                    rua = new String[]{
+                        LibraryStrings.LogradouroAlameda,
+                        LibraryStrings.LogradouroAvenida,
+                        LibraryStrings.LogradouroBeco,
+                        LibraryStrings.LogradouroBoulevard,
+                        LibraryStrings.LogradouroCais,
+                        LibraryStrings.LogradouroCaminho,
+                        LibraryStrings.LogradouroCampo,
+                        LibraryStrings.LogradouroEscada,
+                        LibraryStrings.LogradouroEstrada,
+                        LibraryStrings.LogradouroFavela,
+                        LibraryStrings.LogradouroFazenda,
+                        LibraryStrings.LogradouroFloresta,
+                        LibraryStrings.LogradouroIlha,
+                        LibraryStrings.LogradouroJardim,
+                        LibraryStrings.LogradouroLadeira,
+                        LibraryStrings.LogradouroLargo,
+                        LibraryStrings.LogradouroLoteamento,
+                        LibraryStrings.LogradouroLugar,
+                        LibraryStrings.LogradouroMorro,
+                        LibraryStrings.LogradouroParque,
+                        LibraryStrings.LogradouroPasseio,
+                        LibraryStrings.LogradouroPraca,
+                        LibraryStrings.LogradouroPraia,
+                        LibraryStrings.LogradouroRecanto,
+                        LibraryStrings.LogradouroRodovia,
+                        LibraryStrings.LogradouroRua,
+                        LibraryStrings.LogradouroServidao,
+                        LibraryStrings.LogradouroTravessa,
+                        LibraryStrings.LogradouroVia,
+                        LibraryStrings.LogradouroVila
+                    };
+                }
+                return rua;
+            }
+            set
+            {
+                rua = value;
+            }
+        }
+        public Int16 Numero { get; set; }
         public String Bairro { get; set; }
         public String Cidade { get; set; }
+        public String[] estado;
         public String[] Estado
         {
             get
             {
-                return new String[] { 
+                if (estado == null)
+                {
+                    estado = new String[] { 
                 "AC",
                 "AL",
                 "AP",
@@ -42,8 +93,13 @@ namespace TestProject1.Model
                 "SP",
                 "SE",
                 "TO"};
+                }
+                return estado;
             }
-            set;
+            set
+            {
+                estado = value;
+            }
         }
     }
 }
