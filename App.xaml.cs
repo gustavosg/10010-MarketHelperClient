@@ -4,7 +4,7 @@ using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 
-namespace TestProject1
+namespace MarketHelperClient
 {
     public partial class App
     {

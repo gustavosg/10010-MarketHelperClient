@@ -4,7 +4,7 @@ using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 
 
-namespace TestProject1
+namespace MarketHelperClient
 {
     public partial class MainPage
     {
@@ -16,7 +16,6 @@ namespace TestProject1
         private void MainPage_OnLoaded(object sender, RoutedEventArgs e)
         {
             SystemTray.IsVisible = false;
-
         }
     }
 }
