@@ -74,11 +74,6 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Model\Classe.cs" />
-    <Compile Include="Model\LibraryStrings.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>LibraryStrings.resx</DependentUpon>
-    </Compile>
     <Compile Include="Model\Mercado.cs" />
     <Compile Include="Model\Produtos.cs" />
     <Compile Include="Model\SubClasse.cs" />
@@ -120,12 +115,10 @@
       <Project>{E4B85038-22C3-49F2-A9CF-EB50DCF697D6}</Project>
       <Name>BasisCore</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Model\LibraryStrings.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>LibraryStrings.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
+    <ProjectReference Include="LIbrary\LibraryUtil\LibraryUtil.csproj">
+      <Project>{202B026A-0ECB-4729-9455-5FCC7C511B1F}</Project>
+      <Name>LibraryUtil</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.$(TargetFrameworkProfile).Overrides.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.CSharp.targets" />
