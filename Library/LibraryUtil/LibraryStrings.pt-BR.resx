@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EstadoAcre" xml:space="preserve">
+    <value>AC</value>
+  </data>
+  <data name="EstadoAlagoas" xml:space="preserve">
+    <value>AL</value>
+  </data>
+  <data name="EstadoAmapa" xml:space="preserve">
+    <value>AP</value>
+  </data>
+  <data name="EstadoAmazonas" xml:space="preserve">
+    <value>AM</value>
+  </data>
+  <data name="EstadoBahia" xml:space="preserve">
+    <value>BA</value>
+  </data>
+  <data name="EstadoCeara" xml:space="preserve">
+    <value>CE</value>
+  </data>
+  <data name="EstadoDistritoFederal" xml:space="preserve">
+    <value>DF</value>
+  </data>
+  <data name="EstadoEspiritoSanto" xml:space="preserve">
+    <value>ES</value>
+  </data>
+  <data name="EstadoGoias" xml:space="preserve">
+    <value>GO</value>
+  </data>
+  <data name="EstadoMaranhao" xml:space="preserve">
+    <value>MA</value>
+  </data>
+  <data name="EstadoMatoGrosso" xml:space="preserve">
+    <value>MT</value>
+  </data>
+  <data name="EstadoMatoGrossoDoSul" xml:space="preserve">
+    <value>MS</value>
+  </data>
+  <data name="EstadoMinasGerais" xml:space="preserve">
+    <value>MG</value>
+  </data>
+  <data name="EstadoPara" xml:space="preserve">
+    <value>PA</value>
+  </data>
+  <data name="EstadoParaiba" xml:space="preserve">
+    <value>PB</value>
+  </data>
+  <data name="EstadoParana" xml:space="preserve">
+    <value>PR</value>
+  </data>
+  <data name="EstadoPernambuco" xml:space="preserve">
+    <value>PE</value>
+  </data>
+  <data name="EstadoPiaui" xml:space="preserve">
+    <value>PI</value>
+  </data>
+  <data name="EstadoRiodeJaneiro" xml:space="preserve">
+    <value>RJ</value>
+  </data>
+  <data name="EstadoRioGrandeDoNorte" xml:space="preserve">
+    <value>RN</value>
+  </data>
+  <data name="EstadoRioGrandeDoSul" xml:space="preserve">
+    <value>RS</value>
+  </data>
+  <data name="EstadoRondonia" xml:space="preserve">
+    <value>RO</value>
+  </data>
+  <data name="EstadoRoraima" xml:space="preserve">
+    <value>RR</value>
+  </data>
+  <data name="EstadoSantaCatarina" xml:space="preserve">
+    <value>SC</value>
+  </data>
+  <data name="EstadoSaoPaulo" xml:space="preserve">
+    <value>SP</value>
+  </data>
+  <data name="EstadoSergipe" xml:space="preserve">
+    <value>SE</value>
+  </data>
+  <data name="EstadoTocantins" xml:space="preserve">
+    <value>TO</value>
+  </data>
+  <data name="LogradouroAlameda" xml:space="preserve">
+    <value>ALM</value>
+  </data>
+  <data name="LogradouroAvenida" xml:space="preserve">
+    <value>AVN</value>
+  </data>
+  <data name="LogradouroBeco" xml:space="preserve">
+    <value>BEC</value>
+  </data>
+  <data name="LogradouroBoulevard" xml:space="preserve">
+    <value>BLV</value>
+  </data>
+  <data name="LogradouroCais" xml:space="preserve">
+    <value>CAS</value>
+  </data>
+  <data name="LogradouroCaminho" xml:space="preserve">
+    <value>CAM</value>
+  </data>
+  <data name="LogradouroCampo" xml:space="preserve">
+    <value>CMP</value>
+  </data>
+  <data name="LogradouroEscada" xml:space="preserve">
+    <value>ESC</value>
+  </data>
+  <data name="LogradouroEstrada" xml:space="preserve">
+    <value>ETR</value>
+  </data>
+  <data name="LogradouroFavela" xml:space="preserve">
+    <value>FAV</value>
+  </data>
+  <data name="LogradouroFazenda" xml:space="preserve">
+    <value>FAZ</value>
+  </data>
+  <data name="LogradouroFloresta" xml:space="preserve">
+    <value>FLT</value>
+  </data>
+  <data name="LogradouroIlha" xml:space="preserve">
+    <value>ILH</value>
+  </data>
+  <data name="LogradouroJardim" xml:space="preserve">
+    <value>JRD</value>
+  </data>
+  <data name="LogradouroLadeira" xml:space="preserve">
+    <value>LAD</value>
+  </data>
+  <data name="LogradouroLargo" xml:space="preserve">
+    <value>LRG</value>
+  </data>
+  <data name="LogradouroLoteamento" xml:space="preserve">
+    <value>LTM</value>
+  </data>
+  <data name="LogradouroLugar" xml:space="preserve">
+    <value>LUG</value>
+  </data>
+  <data name="LogradouroMorro" xml:space="preserve">
+    <value>MRR</value>
+  </data>
+  <data name="LogradouroParque" xml:space="preserve">
+    <value>PQE</value>
+  </data>
+  <data name="LogradouroPasseio" xml:space="preserve">
+    <value>PAS</value>
+  </data>
+  <data name="LogradouroPraca" xml:space="preserve">
+    <value>PRC</value>
+  </data>
+  <data name="LogradouroPraia" xml:space="preserve">
+    <value>PRA</value>
+  </data>
+  <data name="LogradouroRecanto" xml:space="preserve">
+    <value>REC</value>
+  </data>
+  <data name="LogradouroRodovia" xml:space="preserve">
+    <value>ROD</value>
+  </data>
+  <data name="LogradouroRua" xml:space="preserve">
+    <value>RUA</value>
+  </data>
+  <data name="LogradouroServidao" xml:space="preserve">
+    <value>SRV</value>
+  </data>
+  <data name="LogradouroTravessa" xml:space="preserve">
+    <value>TRV</value>
+  </data>
+  <data name="LogradouroVia" xml:space="preserve">
+    <value>VIA</value>
+  </data>
+  <data name="LogradouroVila" xml:space="preserve">
+    <value>VIL</value>
+  </data>
+  <data name="ProductName" xml:space="preserve">
+    <value>MarketHelperClient</value>
+  </data>
+</root>

@@ -11,8 +11,22 @@ using System.Windows.Shapes;
 
 namespace Core.Library.LibraryUtil
 {
-    public class Class1
+    public class AppResources
     {
+
+        public AppResources()
+        {
+
+
+        }
+
+        private static AppResources libraryStrings = new AppResources();
+
+        public AppResources StringResources
+        {
+            get { return libraryStrings; }
+        }
+
 
     }
 }

@@ -288,4 +288,7 @@
   <data name="LogradouroVila" xml:space="preserve">
     <value>VIL</value>
   </data>
+  <data name="ProductName" xml:space="preserve">
+    <value>MarketHelperClient</value>
+  </data>
 </root>

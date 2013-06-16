@@ -55,19 +55,34 @@
     <Reference Include="System.Windows.Browser" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
-    <Compile Include="LibraryStrings.Designer.cs">
-      <DependentUpon>LibraryStrings.resx</DependentUpon>
+    <Compile Include="AppResources.cs" />
+    <Compile Include="LibraryStrings.en-US.Designer.cs">
+      <DependentUpon>LibraryStrings.en-US.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="LibraryStrings.pt-BR.Designer.cs">
+      <DependentUpon>LibraryStrings.pt-BR.resx</DependentUpon>
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="LibraryStrings.resx">
+    <Resource Include="LibraryStrings.pt-BR.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>LibraryStrings.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
+      <LastGenOutput>LibraryStrings.pt-BR.Designer.cs</LastGenOutput>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Search-256-black.png" />
+    <Resource Include="Images\Search-256-white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="LibraryStrings.en-US.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>LibraryStrings.en-US.Designer.cs</LastGenOutput>
+    </Resource>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Silverlight\$(SilverlightVersion)\Microsoft.Silverlight.CSharp.targets" />
   <ProjectExtensions>
