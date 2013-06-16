@@ -59,7 +59,7 @@
                     Click="Produtos_Click"
                     x:Name="Produtos">
                 <Button.Background>
-                    <ImageBrush ImageSource="Library.LibraryUtil;component/Images/Search-256-white.png" />
+                    <ImageBrush ImageSource="Library.LibraryUtil;component/Images/SearchWhite.png" />
                 </Button.Background>
             </Button>
         </Grid>
