@@ -17,5 +17,10 @@ namespace MarketHelperClient
         {
             SystemTray.IsVisible = false;
         }
+
+        private void Produtos_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/View/Product/ChooseProductOption.xaml", UriKind.Relative));
+        }
     }
 }

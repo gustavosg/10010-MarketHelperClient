@@ -288,7 +288,16 @@
   <data name="LogradouroVila" xml:space="preserve">
     <value>VIL</value>
   </data>
-  <data name="ProductName" xml:space="preserve">
+  <data name="ApplicationName" xml:space="preserve">
     <value>MarketHelperClient</value>
+  </data>
+  <data name="Products" xml:space="preserve">
+    <value>Produtos</value>
+  </data>
+  <data name="SearchProducts" xml:space="preserve">
+    <value>Procurar produtos</value>
+  </data>
+  <data name="ProductName" xml:space="preserve">
+    <value>Nome do produto:</value>
   </data>
 </root>

@@ -1,8 +1,7 @@
-﻿
+﻿using System;
 
-using System;
-using Core.Library.LibraryUtil;
 using Core.Basis.BasisCore;
+
 
 namespace TestProject1.Model
 {
@@ -21,36 +20,36 @@ namespace TestProject1.Model
                     rua = new String[]{
                         
                         
-                        //AppResources.LogradouroAlameda,
-                        //AppResources.LogradouroAvenida,
-                        //AppResources.LogradouroBeco,
-                        //AppResources.LogradouroBoulevard,
-                        //AppResources.LogradouroCais,
-                        //AppResources.LogradouroCaminho,
-                        //AppResources.LogradouroCampo,
-                        //AppResources.LogradouroEscada,
-                        //AppResources.LogradouroEstrada,
-                        //AppResources.LogradouroFavela,
-                        //AppResources.LogradouroFazenda,
-                        //AppResources.LogradouroFloresta,
-                        //AppResources.LogradouroIlha,
-                        //AppResources.LogradouroJardim,
-                        //AppResources.LogradouroLadeira,
-                        //AppResources.LogradouroLargo,
-                        //AppResources.LogradouroLoteamento,
-                        //AppResources.LogradouroLugar,
-                        //AppResources.LogradouroMorro,
-                        //AppResources.LogradouroParque,
-                        //AppResources.LogradouroPasseio,
-                        //AppResources.LogradouroPraca,
-                        //AppResources.LogradouroPraia,
-                        //AppResources.LogradouroRecanto,
-                        //AppResources.LogradouroRodovia,
-                        //AppResources.LogradouroRua,
-                        //AppResources.LogradouroServidao,
-                        //AppResources.LogradouroTravessa,
-                        //AppResources.LogradouroVia,
-                        //AppResources.LogradouroVila
+                        //LibraryStrings.LogradouroAlameda,
+                        //LibraryStrings.LogradouroAvenida,
+                        //LibraryStrings.LogradouroBeco,
+                        //LibraryStrings.LogradouroBoulevard,
+                        //LibraryStrings.LogradouroCais,
+                        //LibraryStrings.LogradouroCaminho,
+                        //LibraryStrings.LogradouroCampo,
+                        //LibraryStrings.LogradouroEscada,
+                        //LibraryStrings.LogradouroEstrada,
+                        //LibraryStrings.LogradouroFavela,
+                        //LibraryStrings.LogradouroFazenda,
+                        //LibraryStrings.LogradouroFloresta,
+                        //LibraryStrings.LogradouroIlha,
+                        //LibraryStrings.LogradouroJardim,
+                        //LibraryStrings.LogradouroLadeira,
+                        //LibraryStrings.LogradouroLargo,
+                        //LibraryStrings.LogradouroLoteamento,
+                        //LibraryStrings.LogradouroLugar,
+                        //LibraryStrings.LogradouroMorro,
+                        //LibraryStrings.LogradouroParque,
+                        //LibraryStrings.LogradouroPasseio,
+                        //LibraryStrings.LogradouroPraca,
+                        //LibraryStrings.LogradouroPraia,
+                        //LibraryStrings.LogradouroRecanto,
+                        //LibraryStrings.LogradouroRodovia,
+                        //LibraryStrings.LogradouroRua,
+                        //LibraryStrings.LogradouroServidao,
+                        //LibraryStrings.LogradouroTravessa,
+                        //LibraryStrings.LogradouroVia,
+                        //LibraryStrings.LogradouroVila
                     };
                 }
                 return rua;

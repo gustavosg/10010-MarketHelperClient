@@ -8,25 +8,20 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Animation;
 using System.Windows.Shapes;
+using Core.Library.LibraryUtil.Resources;
+
 
 namespace Core.Library.LibraryUtil
 {
-    public class AppResources
+    public class LibraryStringsManager
     {
+        public LibraryStrings LibraryStrings { get; set; }
 
-        public AppResources()
+        public LibraryStringsManager()
         {
-
-
+            LibraryStrings = new LibraryStrings();
         }
 
-        private static AppResources libraryStrings = new AppResources();
-
-        public AppResources StringResources
-        {
-            get { return libraryStrings; }
-        }
-
-
+        
     }
 }

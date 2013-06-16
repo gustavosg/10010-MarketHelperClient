@@ -12,11 +12,12 @@
     <RootNamespace>Core.Library.LibraryUtil</RootNamespace>
     <AssemblyName>Library.LibraryUtil</AssemblyName>
     <TargetFrameworkIdentifier>Silverlight</TargetFrameworkIdentifier>
-    <TargetFrameworkVersion>v3.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
     <SilverlightApplication>false</SilverlightApplication>
     <ValidateXaml>true</ValidateXaml>
     <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <!-- This property group is only here to support building this project using the 
        MSBuild 3.5 toolset. In order to work correctly with this older toolset, it needs 
@@ -55,34 +56,36 @@
     <Reference Include="System.Windows.Browser" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AppResources.cs" />
-    <Compile Include="LibraryStrings.en-US.Designer.cs">
+    <Compile Include="Resources\LibraryStrings.en-US.Designer.cs">
       <DependentUpon>LibraryStrings.en-US.resx</DependentUpon>
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
     </Compile>
-    <Compile Include="LibraryStrings.pt-BR.Designer.cs">
-      <DependentUpon>LibraryStrings.pt-BR.resx</DependentUpon>
+    <Compile Include="Resources\LibraryStringsManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\LibraryStrings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
+      <DependentUpon>LibraryStrings.resx</DependentUpon>
     </Compile>
-    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="LibraryStrings.pt-BR.resx">
-      <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>LibraryStrings.pt-BR.Designer.cs</LastGenOutput>
+    <Resource Include="Images\Search-256-black.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Search-256-white.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\Search-256-black.png" />
-    <Resource Include="Images\Search-256-white.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="LibraryStrings.en-US.resx">
+    <EmbeddedResource Include="Resources\LibraryStrings.en-US.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>LibraryStrings.en-US.Designer.cs</LastGenOutput>
-    </Resource>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\LibraryStrings.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>LibraryStrings.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Silverlight\$(SilverlightVersion)\Microsoft.Silverlight.CSharp.targets" />
   <ProjectExtensions>

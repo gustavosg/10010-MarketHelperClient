@@ -5,6 +5,7 @@
                             xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
                             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
                             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                            xmlns:library="clr-namespace:Core.Library.LibraryUtil;assembly=Library.LibraryUtil"
                             mc:Ignorable="d"
                             d:DesignWidth="480"
                             d:DesignHeight="768"
@@ -20,19 +21,23 @@
           Background="Transparent">
 
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto" />
+            <RowDefinition Height="60" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
 
         <StackPanel x:Name="TitlePanel"
                     Grid.Row="0">
-            <TextBlock Text="MarketHelper Versão Cliente"
-                       HorizontalAlignment="Left" />
-            <TextBlock Text="Escolha uma opção:"
-                       FontSize="50" />
+            <TextBlock x:Name="ApplicationTitle"
+                       Text="{Binding LibraryStrings.ApplicationName, Source={StaticResource LibraryStringsManager}}"
+                       Style="{StaticResource PhoneTextNormalStyle}"
+                       Margin="9,-7,0,0" />
+
+            <!--<TextBlock Text="Escolha uma opção:"
+                       FontSize="12" />-->
         </StackPanel>
 
-        <Grid Grid.Row="1" Margin="0,20,0,0">
+        <Grid Grid.Row="1"
+              Margin="0,20,0,0">
             <Grid.RowDefinitions>
                 <RowDefinition Height="1*" />
                 <RowDefinition Height="1*" />
@@ -44,18 +49,20 @@
             </Grid.ColumnDefinitions>
             <TextBlock Grid.Row="0"
                        Grid.Column="0"
-                       Text="Pesquisar Produtos"
-                       HorizontalAlignment="Center"/>
+                       Text="{Binding LibraryStrings.Products, Source={StaticResource LibraryStringsManager}}"
+                       HorizontalAlignment="Center" />
             <Button Margin="0,20,0,0"
-                Grid.Row="0"
+                    Grid.Row="0"
                     Grid.Column="0"
                     Width="200"
-                    Height="200" 
-                    x:Name="PesquisarProdutos"
-                    />
+                    Height="200"
+                    Click="Produtos_Click"
+                    x:Name="Produtos">
+                <Button.Background>
+                    <ImageBrush ImageSource="Library.LibraryUtil;component/Images/Search-256-white.png" />
+                </Button.Background>
+            </Button>
         </Grid>
-
-
 
     </Grid>
 
