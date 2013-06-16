@@ -103,7 +103,6 @@
     <Content Include="Background.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Resource Include="Toolkit.Content\ie.png" />
     <None Include="Notes.htm" />
   </ItemGroup>
   <ItemGroup>
