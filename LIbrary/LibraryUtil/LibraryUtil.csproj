@@ -71,12 +71,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\SearchBlack.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\SearchWhite.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
+    <Resource Include="Images\SearchBlack.png" />
+    <Resource Include="Images\SearchWhite.png" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\LibraryStrings.en-US.resx">
@@ -87,6 +83,16 @@
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>LibraryStrings.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\BagBlack.png" />
+    <Resource Include="Images\BagWhite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\FileAddWhite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\FileAddBlack.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Silverlight\$(SilverlightVersion)\Microsoft.Silverlight.CSharp.targets" />
   <ProjectExtensions>

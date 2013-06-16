@@ -70,6 +70,15 @@ namespace Core.Library.LibraryUtil.Resources {
         }
         
         /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Escolha uma opção:.
+        /// </summary>
+        public static string ChooseOption {
+            get {
+                return ResourceManager.GetString("ChooseOption", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a AC.
         /// </summary>
         public static string EstadoAcre {
@@ -579,6 +588,15 @@ namespace Core.Library.LibraryUtil.Resources {
         public static string LogradouroVila {
             get {
                 return ResourceManager.GetString("LogradouroVila", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Mercados.
+        /// </summary>
+        public static string Markets {
+            get {
+                return ResourceManager.GetString("Markets", resourceCulture);
             }
         }
         

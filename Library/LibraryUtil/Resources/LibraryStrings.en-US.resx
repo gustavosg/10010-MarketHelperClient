@@ -300,4 +300,10 @@
   <data name="ProductName" xml:space="preserve">
     <value>Product name:</value>
   </data>
+  <data name="ChooseOption" xml:space="preserve">
+    <value>Choose an option:</value>
+  </data>
+  <data name="Markets" xml:space="preserve">
+    <value>Markets</value>
+  </data>
 </root>

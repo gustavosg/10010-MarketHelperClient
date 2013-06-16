@@ -2,12 +2,16 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
-             xmlns:library="clr-namespace:Core.Library.LibraryUtil;assembly=Library.LibraryUtil"
-             >
+             xmlns:library="clr-namespace:Core.Library.LibraryUtil;assembly=Library.LibraryUtil">
     <Application.Resources>
-        <library:LibraryStringsManager x:Key="LibraryStringsManager"/>
+        <library:LibraryStringsManager x:Key="LibraryStringsManager" />
+        <ResourceDictionary x:Key="ResourceDictionary1">
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary  Source="Dictionary/Styles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
     </Application.Resources>
-    
+
     <Application.ApplicationLifetimeObjects>
         <shell:PhoneApplicationService />
     </Application.ApplicationLifetimeObjects>
