@@ -79,6 +79,24 @@ namespace Core.Library.LibraryUtil.Resources {
         }
         
         /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Criar produtos.
+        /// </summary>
+        public static string CreateProducts {
+            get {
+                return ResourceManager.GetString("CreateProducts", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Editar Produtos.
+        /// </summary>
+        public static string EditProducts {
+            get {
+                return ResourceManager.GetString("EditProducts", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a AC.
         /// </summary>
         public static string EstadoAcre {

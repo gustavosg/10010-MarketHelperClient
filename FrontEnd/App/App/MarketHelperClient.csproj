@@ -80,8 +80,8 @@
     <Compile Include="View\Market\SearchMarket.xaml.cs">
       <DependentUpon>SearchMarket.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\Product\ChooseProductOption.xaml.cs">
-      <DependentUpon>ChooseProductOption.xaml</DependentUpon>
+    <Compile Include="View\Product\CreateProduct.xaml.cs">
+      <DependentUpon>CreateProduct.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\Product\SearchProduct.xaml.cs">
       <DependentUpon>SearchProduct.xaml</DependentUpon>
@@ -111,9 +111,9 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="View\Product\ChooseProductOption.xaml">
-      <SubType>Designer</SubType>
+    <Page Include="View\Product\CreateProduct.xaml">
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="View\Product\SearchProduct.xaml">
       <SubType>Designer</SubType>

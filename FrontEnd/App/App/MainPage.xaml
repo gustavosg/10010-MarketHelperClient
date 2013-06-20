@@ -6,7 +6,6 @@
                             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
                             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
                             xmlns:library="clr-namespace:Core.Library.LibraryUtil;assembly=Library.LibraryUtil"
-                            
                             mc:Ignorable="d"
                             d:DesignWidth="480"
                             d:DesignHeight="768"
@@ -17,11 +16,9 @@
                             Orientation="Portrait"
                             shell:SystemTray.IsVisible="True"
                             Loaded="MainPage_OnLoaded">
-    
-    
+
     <Grid x:Name="LayoutRoot"
           Background="Transparent">
-        
 
         <Grid.RowDefinitions>
             <RowDefinition Height="60" />
@@ -50,8 +47,9 @@
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
-            
-            <Grid Grid.Row="0" Grid.Column="0">
+
+            <Grid Grid.Row="0"
+                  Grid.Column="0">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*" />
                     <RowDefinition Height="*" />
@@ -61,10 +59,8 @@
                     <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
 
-                <Button 
-                        Grid.Row="0"
+                <Button Grid.Row="0"
                         Grid.Column="0"
-                    
                         Click="ProcurarProdutos_Click"
                         x:Name="ProcurarProdutos">
                     <Button.Background>
@@ -82,29 +78,26 @@
                 </Button>
 
             </Grid>
-            
+
             <TextBlock Grid.Row="0"
                        Grid.Column="0"
                        Text="{Binding LibraryStrings.Products, Source={StaticResource LibraryStringsManager}}"
                        VerticalAlignment="Bottom"
                        HorizontalAlignment="Center" />
-            
 
             <TextBlock Grid.Row="0"
                        Grid.Column="1"
-                       x:Name="Mercados" 
+                       x:Name="Mercados"
                        HorizontalAlignment="Center"
                        VerticalAlignment="Bottom"
-                       Text="{Binding LibraryStrings.Markets, Source={StaticResource LibraryStringsManager}}"/>
+                       Text="{Binding LibraryStrings.Markets, Source={StaticResource LibraryStringsManager}}" />
             <Button Grid.Row="0"
                     Margin="0,0,0,20"
-                     
                     Grid.Column="1"
-                    
                     HorizontalContentAlignment="Center"
                     VerticalContentAlignment="Bottom">
                 <Button.Background>
-                    <ImageBrush ImageSource="Library.LibraryUtil;component/Images/BagWhite.png"/>
+                    <ImageBrush ImageSource="Library.LibraryUtil;component/Images/BagWhite.png" />
                 </Button.Background>
             </Button>
         </Grid>

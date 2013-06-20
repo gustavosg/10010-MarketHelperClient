@@ -13,9 +13,9 @@ using Microsoft.Phone.Controls;
 
 namespace FrontEnd.MarketHelperClient.View.Product
 {
-    public partial class ChooseProductOption : PhoneApplicationPage
+    public partial class CreateProduct : PhoneApplicationPage
     {
-        public ChooseProductOption()
+        public CreateProduct()
         {
             InitializeComponent();
         }

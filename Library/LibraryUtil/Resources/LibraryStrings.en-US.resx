@@ -306,4 +306,10 @@
   <data name="Markets" xml:space="preserve">
     <value>Markets</value>
   </data>
+  <data name="CreateProducts" xml:space="preserve">
+    <value>Create products</value>
+  </data>
+  <data name="EditProducts" xml:space="preserve">
+    <value>Edit products</value>
+  </data>
 </root>
