@@ -22,5 +22,10 @@ namespace MarketHelperClient
         {
             NavigationService.Navigate(new Uri("/View/Product/ChooseProductOption.xaml", UriKind.Relative));
         }
+
+        private void Criar_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/View/ShoppingList/Create.xaml", UriKind.Relative));
+        }
     }
 }

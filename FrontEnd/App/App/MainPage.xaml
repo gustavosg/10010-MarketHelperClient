@@ -64,16 +64,7 @@
                         Click="ProcurarProdutos_Click"
                         x:Name="ProcurarProdutos">
                     <Button.Background>
-                        <ImageBrush ImageSource="Library.LibraryUtil;component/Images/SearchWhite.png" />
-                    </Button.Background>
-                </Button>
-
-                <Button Grid.Row="0"
-                        Grid.Column="1"
-                        Click="ProcurarProdutos_Click"
-                        x:Name="CriarProdutos">
-                    <Button.Background>
-                        <ImageBrush ImageSource="Library.LibraryUtil;component/Images/FileAddWhite.png" />
+                        <ImageBrush ImageSource="Images/SearchWhite.png" />
                     </Button.Background>
                 </Button>
 
@@ -97,9 +88,51 @@
                     HorizontalContentAlignment="Center"
                     VerticalContentAlignment="Bottom">
                 <Button.Background>
-                    <ImageBrush ImageSource="Library.LibraryUtil;component/Images/BagWhite.png" />
+                    <ImageBrush ImageSource="Images/BagWhite.png" />
                 </Button.Background>
             </Button>
+
+            <Grid Grid.Row="1"
+                  Grid.Column="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Grid.Row="1"
+                           Text="Compras"
+                           x:Name="Compras"
+                           Grid.ColumnSpan="2"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Bottom" />
+
+                <Button Grid.Row="0"
+                        Grid.Column="0"
+                        Margin="0,0,0,20"
+                        x:Name="Pesquisar"
+                        BorderBrush="{x:Null}">
+                    <Button.Background>
+                        <ImageBrush ImageSource="Images/SearchWhite.png" />
+                    </Button.Background>
+                </Button>
+
+                <Button Grid.Row="0"
+                        Grid.Column="1"
+                        Margin="0,0,0,20"
+                        x:Name="Criar"
+                        BorderBrush="{x:Null}"
+                        Click="Criar_Click">
+                    <Button.Background>
+                        <ImageBrush ImageSource="Images/FileAddWhite.png" />
+                    </Button.Background>
+                </Button>
+                
+            </Grid>
+
         </Grid>
 
     </Grid>
